@@ -1,0 +1,114 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main body styles */
+body {
+    font-family: 'Jost', sans-serif;
+    background: url(../assets/pattern.png);
+    background-size: 500px;
+}
+
+/* Common box styles */
+.box {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Box heading styles */
+.box h1 {
+    margin-bottom: 25px;
+    font-weight: 800;
+}
+
+/* Box paragraph styles */
+.box p {
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+/* Economy car section styles */
+.economy h1 {
+    color: sandybrown;
+}
+
+.economy a {
+    background-color: orange;
+}
+
+.economy a:hover {
+    background-color: rgb(182, 121, 8);
+}
+
+.economy a:active {
+    background-color: rgb(148, 98, 6);
+}
+
+/* Luxury car section styles */
+.luxury h1 {
+    color: magenta;
+}
+
+.luxury a {
+    background-color: purple;
+}
+
+.luxury a:hover {
+    background-color: rgb(104, 0, 104);
+}
+
+.luxury a:active {
+    background-color: rgb(77, 1, 77);
+}
+
+/* Family car section styles */
+.family h1 {
+    color: aquamarine;
+}
+
+.family a {
+    background-color: green;
+}
+
+.family a:hover {
+    background-color: rgb(1, 97, 1);
+}
+
+.family a:active {
+    background-color: rgb(1, 73, 1);
+}
+
+/* Common link styles */
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+/* Car section background images */
+.economy {
+    background: white url(../assets/economic-car.png) no-repeat right/200px;
+}
+
+.luxury {
+    background: white url(../assets/luxury-car.png) no-repeat right/200px;
+}
+
+.family {
+    background: white url(../assets/family-car.png) no-repeat right/200px;
+}
+
+/* Icon spacing */
+i {
+    margin-right: 5px;
+}
